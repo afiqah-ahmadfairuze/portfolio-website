@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive personal portfolio built with HTML, CSS, JavaScript and local SVG artwork — Afiqah.">
+    <title>Personal digital portfolio — Afiqah</title>
+    <meta name="theme-color" content="#DCE8CE">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#project">Skip to project</a>
+    <header class="site-header shell project-site-header">
+        <a class="brand" href="../index.html#home" aria-label="Afiqah, home"><span class="pixel-mark" aria-hidden="true"></span>AFIQAH<span class="brand-dot">.</span></a>
+        <a class="project-back" href="../index.html#portfolio">← Back to Portfolio</a>
+    </header>
+    <main class="shell project-detail" id="project" tabindex="-1">
+        <header class="project-detail-heading">
+            <p class="eyebrow">Personal website · Software, research & teaching</p>
+            <h1>Personal digital portfolio</h1>
+            <p>A personal desktop for my background and selected work</p>
+            <div class="project-code-actions"><a class="button button--code" href="https://github.com/afiqah-ahmadfairuze/portfolio-website" target="_blank" rel="noopener noreferrer" aria-label="View Code on GitHub for Personal digital portfolio (opens in a new tab)">View Code on GitHub <span aria-hidden="true">↗</span></a></div>
+        </header>
+        <article class="portfolio-window">
+            <div class="portfolio-window__titlebar browser-toolbar">
+                    <span class="browser-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                    <p class="project-file-label browser-address">personal-portfolio.txt</p>
+                </div>
+            <div class="project-detail-body">
+                <section class="project-detail-section" aria-labelledby="overview-title">
+                    <h2 id="overview-title">Overview</h2>
+                    <p>My personal digital portfolio brings together my software engineering background, research work and STEM teaching experience. Created during the Khazanah Nasional K-Youth programme, it now presents my background and selected work through a pastel desktop-inspired interface.</p>
+                </section>
+                <section class="project-detail-section" aria-labelledby="purpose-title">
+                    <h2 id="purpose-title">Purpose</h2>
+                    <p>The website provides one place to explore my education, experience, awards and skills, read about selected projects, and find my email and professional profiles.</p>
+                </section>
+                <section class="project-detail-section" aria-labelledby="technologies-title">
+                    <h2 id="technologies-title">Technologies</h2>
+                    <p>Semantic HTML structures the pages, shared CSS provides the responsive layout and visual design, and JavaScript controls the mobile menu and active-section navigation. The hero PC is drawn with local SVG, while photographs and folder artwork are stored as local image assets.</p>
+                </section>
+                <section class="project-detail-section" aria-labelledby="features-title">
+                    <h2 id="features-title">Features</h2>
+                    <ul class="project-features">
+                        <li>Responsive homepage sections for About, Portfolio, Experience, Awards, Skills and Contact.</li>
+                        <li>macOS-style content windows, a pastel PC illustration and separate project detail pages.</li>
+                        <li>A mobile menu with keyboard controls and navigation that follows the visible section.</li>
+                        <li>An alternating experience timeline that stacks on smaller screens.</li>
+                        <li>Visible keyboard focus, skip links and reduced-motion support.</li>
+                        <li>Direct contact and repository links, with no contact form or backend required.</li>
+                    </ul>
+                </section>
+                <section class="project-detail-section" aria-labelledby="previews-title">
+                    <h2 id="previews-title">Available previews</h2>
+                    <div class="award-gallery screenshot-gallery screenshot-gallery--detail" data-carousel role="region" aria-roledescription="carousel" aria-label="Personal digital portfolio previews">
+    <div class="award-slides">
+        <div class="award-slide" id="portfolio-detail-slide-1" role="group" aria-roledescription="slide" aria-label="1 of 4">
+            <img src="../assets/images/projects/portfolio/Screenshot%202026-10-29%20at%2014.30.53.png" alt="Personal portfolio homepage with navigation, hero and desktop PC illustration." width="3360" height="2100" loading="lazy" decoding="async">
+        </div>
+        <div class="award-slide" id="portfolio-detail-slide-2" role="group" aria-roledescription="slide" aria-label="2 of 4" hidden>
+            <img src="../assets/images/projects/portfolio/Screenshot%202026-10-29%20at%2014.30.59.png" alt="Personal portfolio About section with biography and education." width="3360" height="2100" loading="lazy" decoding="async">
+        </div>
+        <div class="award-slide" id="portfolio-detail-slide-3" role="group" aria-roledescription="slide" aria-label="3 of 4" hidden>
+            <img src="../assets/images/projects/portfolio/Screenshot%202026-10-29%20at%2014.31.06.png" alt="Personal portfolio Experience timeline." width="3360" height="2100" loading="lazy" decoding="async">
+        </div>
+        <div class="award-slide" id="portfolio-detail-slide-4" role="group" aria-roledescription="slide" aria-label="4 of 4" hidden>
+            <img src="../assets/images/projects/portfolio/Screenshot%202026-10-29%20at%2014.31.16.png" alt="Personal portfolio Skills and Contact sections." width="3360" height="2100" loading="lazy" decoding="async">
+        </div>
+    </div>
+    <div class="award-controls" hidden>
+        <button class="award-arrow" type="button" data-previous aria-label="Previous image">←</button>
+        <div class="award-dots" role="group" aria-label="Choose an image">
+            <button type="button" class="award-dot" data-slide="0" aria-label="Show image 1 of 4" aria-controls="portfolio-detail-slide-1" aria-pressed="true"></button>
+            <button type="button" class="award-dot" data-slide="1" aria-label="Show image 2 of 4" aria-controls="portfolio-detail-slide-2" aria-pressed="false"></button>
+            <button type="button" class="award-dot" data-slide="2" aria-label="Show image 3 of 4" aria-controls="portfolio-detail-slide-3" aria-pressed="false"></button>
+            <button type="button" class="award-dot" data-slide="3" aria-label="Show image 4 of 4" aria-controls="portfolio-detail-slide-4" aria-pressed="false"></button>
+        </div>
+        <button class="award-arrow" type="button" data-next aria-label="Next image">→</button>
+        <button class="award-pause" type="button" data-pause>Pause slideshow</button>
+    </div>
+    <p class="award-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+</div>
+
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer class="site-footer shell">
+        <p>© 2026 Afiqah Binti Ahmad Fairuze</p>
+        <a href="../index.html#portfolio">← Back to Portfolio</a>
+    </footer>
+</body>
+</html>

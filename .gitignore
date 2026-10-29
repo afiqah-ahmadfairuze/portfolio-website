@@ -1,0 +1,18 @@
+# Local source documents, notes and editor history (never public)
+/references/
+/.history/
+/PROJECT-CONTENT-CHECKLIST.md
+/PRIVATE-*.md
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+*.pem
+*.key
+
+# Generated site and local review output
+/_site/
+/review-output/
+__pycache__/
+.DS_Store
